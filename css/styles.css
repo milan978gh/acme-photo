@@ -10,12 +10,12 @@ body{
     height: auto;
 }
 h1{
-    font-size: 2m5rem;
-    font-weight: 400;
+    font-size: 4rem;
+    font-weight: 700;
     text-transform: uppercase;
 }
 h2{
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: 400;
     text-transform: capitalize;
 }
@@ -47,7 +47,9 @@ main{
     color: #777;
 }
 .btn{
-    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem 4rem;
     border: 2px solid #ccc;
     display: inline-block;
     margin: 3rem 0 0;
@@ -92,6 +94,12 @@ main{
     opacity: 1;
     margin: .7rem auto .5rem;
 }
+.caption h3{
+    font-size: 1.4rem;
+}
+.caption p{
+    font-size: 1.2rem;
+}
 footer{
     text-align: center;
     color: #333;
@@ -102,23 +110,7 @@ footer h3{
     font-size: 3rem;
     margin-bottom: 0;
 }
-
-/* screen 900-1200px */
-@media(min-width:900px){
-    
+footer p{
+    font-size: 1.2rem;
 }
 
-/* screen above 1200px */
-@media(min-width: 1200px){
-    #landing{
-        display: flex;
-        height: 100%;
-    }
-    #landing-text,
-    #landing-img{
-        height: 100vh;
-    }
-    .btn{
-        padding: .5rem .2rem;
-    }
-}
