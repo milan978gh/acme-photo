@@ -135,3 +135,33 @@ footer p{
     
 }
 
+/* screen above 1200px */
+@media(min-width: 1200px){
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+    #landing{
+        display: flex;
+        height: 100%;
+    }
+    #landing-text,
+    #landing-img{
+        height: 100vh;
+    }
+    .btn{
+        font-size: 1rem;
+        padding: .5rem 2rem;
+    }.caption h3{
+        font-size: 1.2rem;
+    }
+    .caption p,
+    footer p{
+        font-size: 1.2rem;
+    }
+    footer h3{
+        font-size: 2rem;
+    }
+}
