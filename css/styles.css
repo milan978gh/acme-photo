@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: Georgia, serif;
+    background: #eee;
+    height: auto;
+}
+h1{
+    font-size: 2m5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+img{
+    display: block;
+    width: 100%;
+}
+main{
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0 40px rgba(0, 0, 0, .4),
+                -30px 0 40px rgba(0, 0, 0, .4);
+}
+
+#landing{
+    background: #fff;
+}
+#landing-text{
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#landing-text h2{
+    color: #888;
+}
+.btn{
+    padding: .5rem 2rem;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    color: #333;
+    transition: background .3s;
+}
+.btn:hover{
+    background: #f4f4f4;
+}
+#landing-img{
+    background: url(../img/main.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    flex: 0 1 60vw;
+}
+#header{
+    padding: 1.5rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+#header h2{
+    border-left: 1px dotted #fff;
+    border-right: 1px dotted #fff;
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.caption{
+    padding: .8rem;
+    text-align: center;
+}
